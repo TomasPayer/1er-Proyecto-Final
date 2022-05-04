@@ -48,7 +48,7 @@ router.post(
   }
 );
 
-//UPDATE
+//UPDATE//PUT
 router.put(
   "/:id",
   authMiddleware,
